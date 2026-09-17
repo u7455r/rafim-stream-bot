@@ -6,8 +6,8 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # কনফিগারেশন
 BOT_TOKEN = "7973487211:AAHQtqebBZjkCPnUxRNyh0v04wCtf6g1NK8"  # @BotFather থেকে পাওয়া টোকেন
-WEBSITE_URL = "https://your-site.pages.dev"  # আপনার ওয়েবসাইটের লাইভ লিঙ্ক
-CHANNEL_ID = "@your_channel_username"  # আপনার চ্যানেল বা গ্রুপের ইউজারনেম
+WEBSITE_URL = "https://live-score-hub-plum.vercel.app"  # আপনার ওয়েবসাইটের লাইভ লিঙ্ক
+CHANNEL_ID = "https://t.me/rafimhossen3"  # আপনার চ্যানেল বা গ্রুপের ইউজারনেম
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=BOT_TOKEN)
